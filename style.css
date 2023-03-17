@@ -1,0 +1,103 @@
+.body{
+    color: white;
+    background-color: #5a527f;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.h1{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    background-color: #756ba5;
+    text-align: center;
+}
+
+.img1{
+    width: 85%;
+    height: 85%;
+}
+.subdiv2{
+    color: white;
+    text-decoration: none;
+    font-size: 75%;
+    font-weight: normal;
+}
+.img1{
+    width: 55%;
+    height: 100%;
+}
+
+.d1 {
+    display: grid;
+    grid-template-columns: 17.8% 1% 0.2% 1% 80%;
+}
+
+.v-line {
+    background-color: white;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.a1 {
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+    font-size: 90%;
+    background-color:#756ba5;
+}
+
+.f1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.as1 {
+    text-align: center;
+    font-size: 90%;
+    background-color:#756ba5;
+}
+
+@media screen and (min-width: 736px) {
+    .subdiv2{
+        color: white;
+        text-decoration: none;
+        font-size: 235%;
+        font-weight: normal;
+    }
+    .h1{
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        background-color: #756ba5;
+        text-align: center;
+    }
+    .d1 {
+        display: grid;
+        grid-template-columns: 17.8% 1% 0.2% 1% 80%;
+    }
+    
+    .v-line {
+        background-color: white;
+    }
+    
+    .h2 {
+        text-align: center;
+    }
+    
+    .a1 {
+        display: grid;
+        grid-template-columns: 2% 96% 2%;
+        font-size: 125%;
+        background-color:#756ba5;
+    }
+    
+    .f1 {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .as1 {
+        text-align: center;
+        font-size: 200%;
+        background-color:#756ba5;
+    }
+}
